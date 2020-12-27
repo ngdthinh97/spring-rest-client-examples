@@ -9,3 +9,5 @@ ApiFakeTory : https://apifaketory.docs.apiary.io/#reference/users/users-collecti
 Generator Model : http://www.jsonschema2pojo.org/
 
 Data for Domain: https://jsonplaceholder.typicode.com/users
+
+SwaggerUI for API: https://api.predic8.de/shop/docs#!/
