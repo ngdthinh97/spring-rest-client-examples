@@ -1,6 +1,6 @@
 package guru.springframework.springrestclientexamples.services;
 
-import guru.springframework.api.domain.User;
+import guru.springframework.api.domain.User; 
 import guru.springframework.api.domain.UserData;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;

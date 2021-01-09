@@ -25,7 +25,7 @@ public class UserController {
 
     @PostMapping("/users")
     public String formPost(Model model, ServerWebExchange serverWebExchange){
-
+    	
 //        MultiValueMap<String, String> map = serverWebExchange.getFormData().block();
 //
 //        Integer limit = Integer.valueOf(map.get("limit").get(0));
@@ -39,6 +39,8 @@ public class UserController {
 //
 //        model.addAttribute("users", apiService.getUsers(limit));
 
+    	
+    	// using web flux
         model.addAttribute("users",
                 apiService
                         .getUsers(serverWebExchange
